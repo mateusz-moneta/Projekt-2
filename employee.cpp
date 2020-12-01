@@ -18,5 +18,5 @@ std::string Employee::getFullName() {
 }
 
 std::string Employee::getId() {
-    return this->id;
+    return id;
 }

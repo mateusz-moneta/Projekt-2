@@ -6,17 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.cpp
-department.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.h
-
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.h
-string
--
-
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.cpp
-employee.h
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
 string
 -
 
@@ -29,11 +19,13 @@ hrms.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
 iostream
 -
+algorithm
+-
 
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
 string
 -
-vector
+list
 -
 department.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.h
@@ -49,10 +41,6 @@ employee.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
 hrms.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
-
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.cpp
-salary.h
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.h
 
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.h
 string
