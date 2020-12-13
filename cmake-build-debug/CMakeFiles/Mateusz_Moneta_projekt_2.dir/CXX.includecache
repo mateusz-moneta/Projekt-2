@@ -14,6 +14,16 @@ C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
 string
 -
 
+C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.cpp
+hrms.h
+C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
+iostream
+-
+algorithm
+-
+map
+-
+
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
 list
 -
@@ -27,14 +37,6 @@ employee.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
 salary.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.h
-
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/main.cpp
-iostream
--
-employee.h
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
-hrms.h
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
 
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.h
 string

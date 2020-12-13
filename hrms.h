@@ -14,13 +14,13 @@ class HRMS {
         std::map<std::string, std::string> departmentMap;
         std::list<Employee> employeeList;
         std::list<Salary> salaryList;
+        void basePrintSalaries(std::list<Salary> list);
+        Employee findEmployee(std::string employeeId);
 
     public:
         HRMS();
         void add(Employee employee, std::string departmentId, double salary);
-        void basePrintSalaries(std::list<Salary> list);
         void changeSalary(std::string employeeId, double salary);
-        Employee findEmployee(std::string empleyeeId);
         void printDepartment(std::string departmentId);
         void printSalaries();
         void printSalariesSorted();

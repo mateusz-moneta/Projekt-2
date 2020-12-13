@@ -37,14 +37,16 @@ Employee HRMS::findEmployee(std::string employeeId) {
 }
 
 void HRMS::printDepartment(std::string departmentId) {
-    std::list<Employee>::iterator it = std::find_if(this->employeeList.begin(), this->employeeList.end(), [departmentId](Employee obj) {
+    std::list<Employee> employeesInDepartmentList;
+    std::copy_if(this->employeeList.begin(), this->employeeList.end(), std::back_inserter(employeesInDepartmentList), [&departmentId](Employee obj){
         return obj.getDepartmentId() == departmentId;
     });
+    std::list<Employee>::iterator it;
 
     std::cout << "Employments in " << this->departmentMap[departmentId] << ":" << std::endl;
 
-    if (it != this->employeeList.end()) {
-        std::cout << it->getFullName() << std::endl;
+    for (it = employeesInDepartmentList.begin(); it != employeesInDepartmentList.end(); ++it) {
+        std::cout << it->getFullName() << " - " << it->getPosition() << std::endl;
     }
 
     std::cout << std::endl;
