@@ -16,6 +16,7 @@ class Employee {
         std::string getDepartmentId();
         std::string getFullName();
         std::string getId();
+        std::string getPosition();
 };
 
 #endif

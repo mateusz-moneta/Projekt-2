@@ -1,6 +1,13 @@
 #include "hrms.h"
 #include <iostream>
 #include <algorithm>
+#include <map>
+
+HRMS::HRMS() {
+    this->departmentMap.insert(std::pair<std::string, std::string >("1", "PwC Polska"));
+    this->departmentMap.insert(std::pair<std::string, std::string >("2", "PwC Germany"));
+    this->departmentMap.insert(std::pair<std::string, std::string >("3", "PwC UK"));
+}
 
 void HRMS::add(Employee employee, std::string departmentId, double salary) {
     this->employeeList.push_back(employee);
@@ -34,7 +41,7 @@ void HRMS::printDepartment(std::string departmentId) {
         return obj.getDepartmentId() == departmentId;
     });
 
-    std::cout << "Employments in department:" << std::endl;
+    std::cout << "Employments in " << this->departmentMap[departmentId] << ":" << std::endl;
 
     if (it != this->employeeList.end()) {
         std::cout << it->getFullName() << std::endl;
@@ -46,22 +53,22 @@ void HRMS::printDepartment(std::string departmentId) {
 void HRMS::basePrintSalaries(std::list<Salary> list) {
     std::list<Salary>::iterator it;
 
-    std::cout << "Salaries:" << std::endl;
-
     for (it = list.begin(); it != list.end(); ++it) {
         Employee employee = this->findEmployee(it->getEmployeeId());
-        std::cout << employee.getFullName() << ": " << it->getSalary() << std::endl;
+        std::cout << employee.getFullName() << " - " << employee.getPosition() << " (" << this->departmentMap[employee.getDepartmentId()] << "): " << it->getSalary() << std::endl;
     }
 
     std::cout << std::endl;
 }
 
 void HRMS::printSalaries() {
+    std::cout << "Salaries:" << std::endl;
     this->basePrintSalaries(this->salaryList);
 }
 
 void HRMS::printSalariesSorted() {
+    std::cout << "Sorted salaries:" << std::endl;
     std::list<Salary> copySalaryList = this->salaryList;
-    copySalaryList.sort([](Salary &f, Salary &s) { return f.getSalary() < s.getSalary(); });
+    copySalaryList.sort([](Salary &f, Salary &s) { return f.getSalary() > s.getSalary(); });
     this->basePrintSalaries(copySalaryList);
 }

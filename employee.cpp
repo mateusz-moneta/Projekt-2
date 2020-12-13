@@ -20,3 +20,7 @@ std::string Employee::getFullName() {
 std::string Employee::getId() {
     return this->id;
 }
+
+std::string Employee::getPosition() {
+    return this->position;
+}
