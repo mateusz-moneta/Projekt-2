@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.cpp" "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/cmake-build-debug/CMakeFiles/Mateusz_Moneta_projekt_2.dir/department.cpp.obj"
   "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.cpp" "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/cmake-build-debug/CMakeFiles/Mateusz_Moneta_projekt_2.dir/employee.cpp.obj"
   "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.cpp" "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/cmake-build-debug/CMakeFiles/Mateusz_Moneta_projekt_2.dir/hrms.cpp.obj"
   "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/main.cpp" "C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/cmake-build-debug/CMakeFiles/Mateusz_Moneta_projekt_2.dir/main.cpp.obj"

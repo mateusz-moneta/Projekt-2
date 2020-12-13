@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.h
-string
--
-
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
 string
 -
@@ -31,12 +27,18 @@ map
 -
 string
 -
-department.h
-C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.h
 employee.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
 salary.h
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.h
+
+C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/main.cpp
+iostream
+-
+employee.h
+C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.h
+hrms.h
+C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/hrms.h
 
 C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/salary.h
 string

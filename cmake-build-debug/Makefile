@@ -142,33 +142,6 @@ Mateusz_Moneta_projekt_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mateusz_Moneta_projekt_2.dir\build.make CMakeFiles/Mateusz_Moneta_projekt_2.dir/build
 .PHONY : Mateusz_Moneta_projekt_2/fast
 
-department.obj: department.cpp.obj
-
-.PHONY : department.obj
-
-# target to build an object file
-department.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mateusz_Moneta_projekt_2.dir\build.make CMakeFiles/Mateusz_Moneta_projekt_2.dir/department.cpp.obj
-.PHONY : department.cpp.obj
-
-department.i: department.cpp.i
-
-.PHONY : department.i
-
-# target to preprocess a source file
-department.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mateusz_Moneta_projekt_2.dir\build.make CMakeFiles/Mateusz_Moneta_projekt_2.dir/department.cpp.i
-.PHONY : department.cpp.i
-
-department.s: department.cpp.s
-
-.PHONY : department.s
-
-# target to generate assembly for a file
-department.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Mateusz_Moneta_projekt_2.dir\build.make CMakeFiles/Mateusz_Moneta_projekt_2.dir/department.cpp.s
-.PHONY : department.cpp.s
-
 employee.obj: employee.cpp.obj
 
 .PHONY : employee.obj
@@ -286,9 +259,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Mateusz_Moneta_projekt_2
-	@echo ... department.obj
-	@echo ... department.i
-	@echo ... department.s
 	@echo ... employee.obj
 	@echo ... employee.i
 	@echo ... employee.s

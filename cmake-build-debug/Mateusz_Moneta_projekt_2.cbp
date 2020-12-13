@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.cpp">
-			<Option target="Mateusz_Moneta_projekt_2"/>
-		</Unit>
-		<Unit filename="C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/department.h">
-			<Option target="Mateusz_Moneta_projekt_2"/>
-		</Unit>
 		<Unit filename="C:/Users/mmoneta002/CLionProjects/Mateusz_Moneta_projekt-2/employee.cpp">
 			<Option target="Mateusz_Moneta_projekt_2"/>
 		</Unit>

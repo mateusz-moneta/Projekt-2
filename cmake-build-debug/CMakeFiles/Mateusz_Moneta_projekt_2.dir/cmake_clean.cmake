@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Mateusz_Moneta_projekt_2.dir/department.cpp.obj"
   "CMakeFiles/Mateusz_Moneta_projekt_2.dir/employee.cpp.obj"
   "CMakeFiles/Mateusz_Moneta_projekt_2.dir/hrms.cpp.obj"
   "CMakeFiles/Mateusz_Moneta_projekt_2.dir/main.cpp.obj"
